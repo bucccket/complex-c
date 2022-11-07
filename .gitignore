@@ -1,1 +1,8 @@
 build/
+*.out
+*.l
+*.d
+*.swp
+*.a
+*.o
+*.tmp
