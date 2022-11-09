@@ -2,8 +2,8 @@
 #include "../include/log.h"
 
 int main(int argc, char** argv){
-	printf("Launched\n");
-	printf("done.\n");
+	ced_log("Launched");
+	ced_log("done.");
 
 	ced_log("hi!");
 }

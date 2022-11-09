@@ -12,4 +12,3 @@ void _ced_log(FILE *file, const char* fmt, ...);
 #define ced_logf(f, ...) _ced_log(f, __VA_ARGS__)
 #define ced_log(...) _ced_log(NULL, __VA_ARGS__)
 
-#endif
